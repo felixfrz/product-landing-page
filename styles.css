@@ -1,0 +1,90 @@
+*{
+ margin: 0;
+}
+body{
+ background-color: #F7F8FC;
+}
+
+.top-container{
+ margin: 6% 9%;
+ text-align: center;
+ background-color: #F7F7F7;
+ border-radius: 8px;
+ 
+}
+h1{
+ font-family: 'Merriweather', serif;
+ padding-bottom: 50px;
+ padding-top: 50px;
+ font-size: 3em;
+}
+.mission{
+ font-family: 'Montserrat', sans-serif;
+ padding-bottom: 50px;
+}
+.course-title{
+ padding-bottom: 50px;
+}
+h4{
+ font-family: 'Montserrat', sans-serif;
+ padding-bottom: 30px;
+}
+.icon{
+ color: #007BFF;
+ padding-bottom: 50px;
+}
+.course-paragraph{
+ padding-bottom: 50px;
+}
+#video{
+ margin: 6% 9%;
+ text-align: center;
+ border-radius: 5px;
+}
+.video-description{
+ width: 50%;
+ margin: 10px auto;
+}
+h3{
+ text-align: center;
+}
+#form{
+ text-align: center;
+ margin-top: 30px;
+}
+#submit{
+ background-color: #007BFF;
+ font-size: 20px;
+ border-radius: 10px;
+ color: #fff;
+}
+#submit:hover{
+ background-color: #fff;
+ color: #007BFF;
+}
+#email{
+ width:60%;
+ border-radius: 10px;
+}
+.footer{
+color: #007BFF;
+display: flex;
+justify-content: space-evenly;
+}
+.cta{
+ display: flex;
+justify-content: space-evenly;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+
+}
+
+@media (min-width:767px){
+ h1{
+  font-size: 4rem;
+ }
+}
+.pricing{
+ margin: 6% 9%;
+}
